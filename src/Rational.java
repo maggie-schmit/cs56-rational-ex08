@@ -54,7 +54,8 @@ public class Rational {
 	return new Rational(a.num * b.num,
 			    a.denom * b.denom);
     }
-c static int lcm (int a, int b){
+
+public  static int lcm (int a, int b){
         int retval = 0;
         int g = gcd(a, b);
         
