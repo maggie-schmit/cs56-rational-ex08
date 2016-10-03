@@ -146,8 +146,9 @@ public  static int lcm (int a, int b){
     public static void main (String [] args) {
 	Rational r = new Rational(5,7);
 	System.out.println("r.getNumerator()=" + r.getNumerator());
-	System.out.println("r.getDenominator()=" + r.getDenominator());
-    }
 
-    
+	System.out.println("r.getDenominator()=" + r.getDenominator());
+
+	
+    }
 }
